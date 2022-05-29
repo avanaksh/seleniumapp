@@ -27,7 +27,7 @@ namespace SeleniumTest
             Thread.Sleep(2000);
             Console.Write("username value is entered");
             IWebElement elp = driver.FindElement(By.Id("password"));
-            elp.SendKeys("Passw@rd#123");
+            elp.SendKeys("#########");
             Thread.Sleep(2000);
             Console.Write("password value is entered");
             //IWebElement eleb = driver.FindElement(By.Id("u_0_b"));

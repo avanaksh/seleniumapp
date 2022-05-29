@@ -23,7 +23,7 @@ namespace SeleniumTest
             //username
             //password
             IWebElement elu = driver.FindElement(By.Id("username"));
-            elu.SendKeys("support.lrms@icar.gov.in");
+            elu.SendKeys("#######@icar.gov.in");
             Thread.Sleep(2000);
             Console.Write("username value is entered");
             IWebElement elp = driver.FindElement(By.Id("password"));
